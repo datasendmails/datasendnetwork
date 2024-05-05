@@ -1,6 +1,29 @@
 ![Logo](https://datasend.network/static/screenshots/logocaffe.png)
 <h1 align="center">datasendnetwork</h1>
 
+```yaml annotate
+const datasendnetwork = require('datasendnetwork');
+
+// Configurar el token de autenticación
+const token = 'TU_TOKEN'; // Reemplaza 'TU_TOKEN' con el token de autenticación
+
+// Configurar los detalles del correo electrónico
+const correo = {
+    destinatario: 'destinatario@example.com',
+    asunto: 'Asunto del correo electrónico',
+    contenido: 'Contenido del correo electrónico'
+};
+
+// Enviar el correo electrónico utilizando la biblioteca
+datasendnetwork.enviarCorreoElectronico(correo, token)
+    .then(response => {
+        console.log('Correo electrónico enviado exitosamente:', response);
+    })
+    .catch(error => {
+        console.error('Error al enviar el correo electrónico:', error);
+    });
+```
+
 ### API Reference
 
 | Item | Description |
@@ -70,6 +93,8 @@
 
 <h3>Java</h3>
 
+
+
 <p>To integrate the library into a Java project, ensure you have access to the source code or the compiled library and add the library to your classpath or include it as a Maven or Gradle dependency according to your setup.</p>
 
 <h2>Documentation and Support</h2>
@@ -138,6 +163,48 @@
   <li><strong>Description:</strong> Integrate with various cloud services seamlessly with this API.</li>
   <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/cloud-services-integration</a></li>
 </ul>
+
+```yaml annotate
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class CloudServiceIntegration {
+    public static void main(String[] args) {
+        try {
+            // Configurar el token de autenticación
+            String token = "TU_TOKEN"; // Reemplaza 'TU_TOKEN' con el token de autenticación
+
+            // Configurar la URL del endpoint de la API
+            String apiUrl = "https://datasend.network/api/cloud-services";
+
+            // Crear la conexión HTTP
+            URL url = new URL(apiUrl);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestMethod("GET");
+            connection.setRequestProperty("Authorization", "Bearer " + token);
+
+            // Leer la respuesta
+            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            StringBuilder response = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                response.append(line);
+            }
+            reader.close();
+
+            // Manejar la respuesta
+            System.out.println("Respuesta de la API: " + response.toString());
+
+            // Cerrar la conexión
+            connection.disconnect();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 <h3>Augmented Reality API</h3>
 
