@@ -1,26 +1,53 @@
 ![Logo](https://datasend.network/static/screenshots/logocaffe.png)
 <h1 align="center">datasendnetwork</h1>
 
+### API Reference
+
+| Item | Description |
+|:---|:---|
+| **Get all items** | |
+| `GET /api/items` | Locate and Identify Website Visitors by IP Address |
+| **Get item** | |
+| `GET /api/items/${id}` | Retrieve instant, accurate weather information for any location in the world in lightweight JSON format |
+| **add(num1, num2)** | Takes two numbers and returns the sum. |
+
+### APIs
+
+| API | Description | Call this API |
+|:---|:---|:---|
+| **Mobile Payments API** | This API allows you to integrate mobile payment functionality into your applications. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Push Notifications API** | Send push notifications to your users with ease using this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Data Transfers to Emails API** | Transfer data to email addresses seamlessly with this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Data Analytics API** | Perform advanced analytics on your data using this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Video Conferencing API** | Integrate video conferencing functionality into your applications. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Recurring Payment Management API** | Manage recurring payments efficiently with this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Security Analytics API** | Enhance the security of your applications with advanced analytics using this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Cloud Services Integration API** | Integrate with various cloud services seamlessly with this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Augmented Reality API** | Add augmented reality features to your applications with this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Email Integration API** | Seamlessly integrate email functionality into your applications using this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
+| **Language Translation API** | Translate text between languages with ease using this API. | [![Run In Postman](https://run.pstmn.io/button.svg)](https://datasend.network/documet) |
 
 
-<h1>Bibliotecas de datasendnetwork</h1>
 
-<p>Optimiza tu Desarrollo con Nuestras Bibliotecas de datasendnetwork. Ofrecemos bibliotecas avanzadas para una amplia gama de lenguajes de programación, incluyendo JavaScript/React, Flutter, Python, C++, C# y Java.</p>
 
-<h2>Instalación</h2>
+### Optimize Your Development with Our datasendnetwork Libraries
 
-<p>Puedes instalar nuestras bibliotecas fácilmente en tu entorno de desarrollo preferido.</p>
+<p>Enhance your development with our advanced libraries tailored for a wide range of programming languages, including JavaScript/React, Flutter, Python, C++, C#, and Java.</p>
+
+<h2>Installation</h2>
+
+<p>You can easily install our libraries in your preferred development environment.</p>
 
 <h3>JavaScript/React</h3>
 
-<p>Para instalar la biblioteca en un proyecto JavaScript/React, utiliza npm:</p>
+<p>To install the library in a JavaScript/React project, use npm:</p>
 
 <pre><code>npm install datasendnetwork
 </code></pre>
 
 <h3>Flutter</h3>
 
-<p>Para agregar la biblioteca a tus dependencias en Flutter, edita tu archivo <code>pubspec.yaml</code>:</p>
+<p>To add the library to your dependencies in Flutter, edit your <code>pubspec.yaml</code> file:</p>
 
 <pre><code>dependencies:
   datasendnetwork: ^1.0.0
@@ -28,124 +55,109 @@
 
 <h3>Python</h3>
 
-<p>Para instalar la biblioteca en Python, utiliza pip:</p>
+<p>To install the library in Python, use pip:</p>
 
 <pre><code>pip install datasendnetwork
 </code></pre>
 
 <h3>C++</h3>
 
-<p>Para incluir la biblioteca en un proyecto C++, asegúrate de tener acceso al código fuente o el archivo de biblioteca compilada y enlázala a tu proyecto según sea necesario.</p>
+<p>To include the library in a C++ project, ensure you have access to the source code or the compiled library file and link it to your project as needed.</p>
 
 <h3>C#</h3>
 
-<p>Para utilizar la biblioteca en un proyecto C#, asegúrate de tener acceso al código fuente o la biblioteca compilada y referencia la biblioteca desde tu proyecto.</p>
+<p>To use the library in a C# project, ensure you have access to the source code or the compiled library and reference the library from your project.</p>
 
 <h3>Java</h3>
 
-<p>Para integrar la biblioteca en un proyecto Java, asegúrate de tener acceso al código fuente o la biblioteca compilada y agrega la biblioteca a tu classpath o inclúyela como una dependencia de Maven o Gradle según tu configuración.</p>
+<p>To integrate the library into a Java project, ensure you have access to the source code or the compiled library and add the library to your classpath or include it as a Maven or Gradle dependency according to your setup.</p>
 
-<h2>Documentación y Soporte</h2>
+<h2>Documentation and Support</h2>
 
-<p>Para obtener instrucciones detalladas de instalación y aprovechar al máximo nuestras bibliotecas, visita nuestro <a href="https://datasendnetwork.com">sitio web</a> y consulta la documentación relevante para tu lenguaje de programación.</p>
+<p>For detailed installation instructions and to make the most out of our libraries, visit our <a href="https://datasendnetwork.com">website</a> and refer to the relevant documentation for your programming language.</p>
 
-<p>Además, nuestro chat de IA está disponible para asistirte con cualquier consulta sobre la descarga e instalación. Puedes acceder al chat desde nuestro <a href="https://datasendnetwork.com">sitio web</a> o contactarnos directamente por correo electrónico.</p>
+<p>Additionally, our AI chat is available to assist you with any queries regarding download and installation. You can access the chat from our <a href="https://datasendnetwork.com">website</a> or contact us directly via email.</p>
+
 <h2>API Reference</h2>
 
-<h3>Get all items</h3>
 
-<pre><code>GET /api/items
-Parameter | Type   | Description
--------- | ------ | -----------
-api_key  | string | Required. Your API key
-</code></pre>
-
-<h3>Get item</h3>
-
-<pre><code>GET /api/items/${id}
-Parameter | Type   | Description
--------- | ------ | -----------
-id       | string | Required. Id of item to fetch
-</code></pre>
-
-<h3>add(num1, num2)</h3>
 <p>Takes two numbers and returns the sum.</p>
 
 <h3>Mobile Payments API</h3>
 
 <ul>
   <li><strong>Description:</strong> This API allows you to integrate mobile payment functionality into your applications.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/mobile-payments">https://datasendnetwork.com/mobile-payments</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/mobile-payments</a></li>
 </ul>
 
 <h3>Push Notifications API</h3>
 
 <ul>
   <li><strong>Description:</strong> Send push notifications to your users with ease using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/push-notifications">https://datasendnetwork.com/push-notifications</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/push-notifications</a></li>
 </ul>
 
 <h3>Data Transfers to Emails API</h3>
 
 <ul>
   <li><strong>Description:</strong> Transfer data to email addresses seamlessly with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/data-transfers-to-emails">https://datasendnetwork.com/data-transfers-to-emails</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/data-transfers-to-emails</a></li>
 </ul>
 
 <h3>Data Analytics API</h3>
 
 <ul>
   <li><strong>Description:</strong> Perform advanced analytics on your data using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/data-analytics">https://datasendnetwork.com/data-analytics</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/data-analytics</a></li>
 </ul>
 
 <h3>Video Conferencing API</h3>
 
 <ul>
   <li><strong>Description:</strong> Integrate video conferencing functionality into your applications.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/video-conferencing">https://datasendnetwork.com/video-conferencing</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/video-conferencing</a></li>
 </ul>
 
 <h3>Recurring Payment Management API</h3>
 
 <ul>
   <li><strong>Description:</strong> Manage recurring payments efficiently with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/recurring-payments">https://datasendnetwork.com/recurring-payments</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/recurring-payments</a></li>
 </ul>
 
 <h3>Security Analytics API</h3>
 
 <ul>
   <li><strong>Description:</strong> Enhance the security of your applications with advanced analytics using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/security-analytics">https://datasendnetwork.com/security-analytics</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/security-analytics</a></li>
 </ul>
 
 <h3>Cloud Services Integration API</h3>
 
 <ul>
   <li><strong>Description:</strong> Integrate with various cloud services seamlessly with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/cloud-services-integration">https://datasendnetwork.com/cloud-services-integration</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/cloud-services-integration</a></li>
 </ul>
 
 <h3>Augmented Reality API</h3>
 
 <ul>
   <li><strong>Description:</strong> Add augmented reality features to your applications with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/augmented-reality">https://datasendnetwork.com/augmented-reality</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/augmented-reality</a></li>
 </ul>
 
 <h3>Email Integration API</h3>
 
 <ul>
   <li><strong>Description:</strong> Seamlessly integrate email functionality into your applications using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/email-integration">https://datasendnetwork.com/email-integration</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/email-integration</a></li>
 </ul>
 
 <h3>Language Translation API</h3>
 
 <ul>
   <li><strong>Description:</strong> Translate text between languages with ease using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/language-translation">https://datasendnetwork.com/language-translation</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/language-translation</a></li>
 </ul>
 
 
@@ -158,7 +170,35 @@ id       | string | Required. Id of item to fetch
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> </p>
+<p align="left"> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.php.net" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
+  </a> 
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+  </a> 
+  <a href="https://swift.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
+  </a> 
+  <a href="https://flutter.dev" target="_blank" rel="noreferrer"> 
+    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> 
+  </a> 
+  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> 
+  </a> 
+</p>
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/datasendnetwork"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="datasendnetwork" /></a></p><br><br>
@@ -170,5 +210,5 @@ id       | string | Required. Id of item to fetch
 <div align="center">
   <h2><strong>Bryan Carcamo</strong></h2>
   <p style="font-style: italic;">Founder</p>
-  <p class="animate-text" style="font-size: 16px;">Soy un ingeniero de software con 11 años de experiencia en programación y transferencia de datos, incluyendo correos electrónicos y transacciones de criptomonedas. Con 8 años dedicados a la ciberseguridad y al hacking ético, ofrezco una combinación única de desarrollo de sistemas seguros y la identificación proactiva de vulnerabilidades. Mi enfoque se centra en la innovación, la eficiencia y la implementación de soluciones robustas y confiables, manteniéndome siempre a la vanguardia de las tendencias tecnológicas y de seguridad.</p>
+  <p class="animate-text" style="font-size: 16px;">"I am a software engineer with 11 years of experience in programming and data transfer, including emails and cryptocurrency transactions. With 8 years dedicated to cybersecurity and ethical hacking, I offer a unique combination of secure systems development and proactive vulnerability identification. My focus is on innovation, efficiency, and implementing robust and reliable solutions, always staying at the forefront of technological and security trends.</p>
 </div>
