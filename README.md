@@ -68,6 +68,8 @@
 
 <h2>Licencia</h2>
 
+![Logo](https://datasend.network/static/screenshots/logocaffe.png)
+
 <div align="center">
   <h2><strong>Bryan Carcamo</strong></h2>
   <p style="font-style: italic;">Founder</p>
