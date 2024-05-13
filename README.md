@@ -228,6 +228,105 @@ public class CloudServiceIntegration {
 </ul>
 
 
+<h2>API Reference</h2>
+
+<h3>Get all items</h3>
+
+<pre><code>GET /api/items
+Parameter | Type   | Description
+-------- | ------ | -----------
+api_key  | string | Required. Your API key
+</code></pre>
+
+<h3>Get item</h3>
+
+<pre><code>GET /api/items/${id}
+Parameter | Type   | Description
+-------- | ------ | -----------
+id       | string | Required. Id of item to fetch
+</code></pre>
+
+<h3>add(num1, num2)</h3>
+<p>Takes two numbers and returns the sum.</p>
+
+<h3>Mobile Payments API</h3>
+
+<ul>
+  <li><strong>Description:</strong> This API allows you to integrate mobile payment functionality into your applications.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/mobile-payments">https://datasendnetwork.com/mobile-payments</a></li>
+</ul>
+
+<h3>Push Notifications API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Send push notifications to your users with ease using this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/push-notifications">https://datasendnetwork.com/push-notifications</a></li>
+</ul>
+
+<h3>Data Transfers to Emails API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Transfer data to email addresses seamlessly with this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/data-transfers-to-emails">https://datasendnetwork.com/data-transfers-to-emails</a></li>
+</ul>
+
+<h3>Data Analytics API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Perform advanced analytics on your data using this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/data-analytics">https://datasendnetwork.com/data-analytics</a></li>
+</ul>
+
+<h3>Video Conferencing API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Integrate video conferencing functionality into your applications.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/video-conferencing">https://datasendnetwork.com/video-conferencing</a></li>
+</ul>
+
+<h3>Recurring Payment Management API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Manage recurring payments efficiently with this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/recurring-payments">https://datasendnetwork.com/recurring-payments</a></li>
+</ul>
+
+<h3>Security Analytics API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Enhance the security of your applications with advanced analytics using this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/security-analytics">https://datasendnetwork.com/security-analytics</a></li>
+</ul>
+
+<h3>Cloud Services Integration API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Integrate with various cloud services seamlessly with this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/cloud-services-integration">https://datasendnetwork.com/cloud-services-integration</a></li>
+</ul>
+
+<h3>Augmented Reality API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Add augmented reality features to your applications with this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/augmented-reality">https://datasendnetwork.com/augmented-reality</a></li>
+</ul>
+
+<h3>Email Integration API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Seamlessly integrate email functionality into your applications using this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/email-integration">https://datasendnetwork.com/email-integration</a></li>
+</ul>
+
+<h3>Language Translation API</h3>
+
+<ul>
+  <li><strong>Description:</strong> Translate text between languages with ease using this API.</li>
+  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/language-translation">https://datasendnetwork.com/language-translation</a></li>
+</ul>
+
+
 <h2>Contribuciones</h2>
 
 <h3 align="left">Connect with me:</h3>
