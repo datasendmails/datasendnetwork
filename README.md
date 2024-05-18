@@ -101,7 +101,7 @@ datasendnetwork.enviarCorreoElectronico(correo, token)
 
 <p>For detailed installation instructions and to make the most out of our libraries, visit our <a href="https://datasendnetwork.com">website</a> and refer to the relevant documentation for your programming language.</p>
 
-<p>Additionally, our AI chat is available to assist you with any queries regarding download and installation. You can access the chat from our <a href="https://datasendnetwork.com">website</a> or contact us directly via email.</p>
+<p>Additionally, our AI chat is available to assist you with any queries regarding download and installation. You can access the chat from our <a href="https://datasend.network">website</a> or contact us directly via email.</p>
 
 <h2>API Reference</h2>
 
@@ -112,56 +112,56 @@ datasendnetwork.enviarCorreoElectronico(correo, token)
 
 <ul>
   <li><strong>Description:</strong> This API allows you to integrate mobile payment functionality into your applications.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/mobile-payments</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/mobile-payments</a></li>
 </ul>
 
 <h3>Push Notifications API</h3>
 
 <ul>
   <li><strong>Description:</strong> Send push notifications to your users with ease using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/push-notifications</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/push-notifications</a></li>
 </ul>
 
 <h3>Data Transfers to Emails API</h3>
 
 <ul>
   <li><strong>Description:</strong> Transfer data to email addresses seamlessly with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/data-transfers-to-emails</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/data-transfers-to-emails</a></li>
 </ul>
 
 <h3>Data Analytics API</h3>
 
 <ul>
   <li><strong>Description:</strong> Perform advanced analytics on your data using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/data-analytics</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/data-analytics</a></li>
 </ul>
 
 <h3>Video Conferencing API</h3>
 
 <ul>
   <li><strong>Description:</strong> Integrate video conferencing functionality into your applications.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/video-conferencing</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/video-conferencing</a></li>
 </ul>
 
 <h3>Recurring Payment Management API</h3>
 
 <ul>
   <li><strong>Description:</strong> Manage recurring payments efficiently with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/recurring-payments</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/recurring-payments</a></li>
 </ul>
 
 <h3>Security Analytics API</h3>
 
 <ul>
   <li><strong>Description:</strong> Enhance the security of your applications with advanced analytics using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/security-analytics</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/security-analytics</a></li>
 </ul>
 
 <h3>Cloud Services Integration API</h3>
 
 <ul>
   <li><strong>Description:</strong> Integrate with various cloud services seamlessly with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/cloud-services-integration</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/cloud-services-integration</a></li>
 </ul>
 
 ```yaml annotate
@@ -210,21 +210,21 @@ public class CloudServiceIntegration {
 
 <ul>
   <li><strong>Description:</strong> Add augmented reality features to your applications with this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/augmented-reality</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/augmented-reality</a></li>
 </ul>
 
 <h3>Email Integration API</h3>
 
 <ul>
   <li><strong>Description:</strong> Seamlessly integrate email functionality into your applications using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/email-integration</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/email-integration</a></li>
 </ul>
 
 <h3>Language Translation API</h3>
 
 <ul>
   <li><strong>Description:</strong> Translate text between languages with ease using this API.</li>
-  <li><strong>Endpoint:</strong> <a href="https://datasendnetwork.com/">https://datasendnetwork.com/language-translation</a></li>
+  <li><strong>Endpoint:</strong> <a href="https://datasend.network/">https://datasendnetwork.com/language-translation</a></li>
 </ul>
 
 
